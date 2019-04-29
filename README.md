@@ -21,3 +21,6 @@ https://www.youtube.com/watch?v=WiuFgIyCV0s&list=WL&index=88&t=0s
 
 ---components.module.ts
 
+        <ion-card-header>
+            <ion-rating [Reading]="false" [valor]="project.ratingvalue" (ionClick)="numberstars($event)"></ion-rating>
+        </ion-card-header>
